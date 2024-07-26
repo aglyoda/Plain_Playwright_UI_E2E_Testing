@@ -1,0 +1,20 @@
+{
+  "name": "vanilla-playwright-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:demoAppWebkit": "cross-env APP_NAME=demoApp APP_ENV=qa npx playwright test --project=webkit",
+    "test:demoAppFirefox": "cross-env APP_NAME=demoApp APP_ENV=qa npx playwright test --project=firefox",
+    "test:demoAppChromium": "cross-env APP_NAME=demoApp APP_ENV=qa npx playwright test --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^20.14.12",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5"
+  }
+}
