@@ -10,10 +10,10 @@ _Direct and Lightweight_
 
 _Full Playwright Capabilities_
 1. We have full access to Playwright's API and features without any abstraction layer.
-2. This can be advantageous for complex testing scenarios or when levaraging Playwright's specific capabilities.
+2. This can be advantageous for complex testing scenarios or when leveraging  Playwright's specific capabilities.
 
 _Easier to Start_
-1. Ideal for teams already familier with JavaScript/TypeScript.
+1. Ideal for teams already familiar with JavaScript/TypeScript.
 2. We can get started quickly without learning additional syntax or tools.
 
 ## Cons:
@@ -24,7 +24,7 @@ _Less Readable for Non-Technical Users_
 
 # How to use this Framework (HOWs)
 
-> Step 01: Open this repositary in VSCode., and run the following command:
+> Step 01: Open this repository in VSCode., and run the following command:
 
 ```sh
 npm install
@@ -46,11 +46,11 @@ Playwright Test extends the functionality of the Playwright Library into a full-
 This is designed specifically for end-to-end testing.
 
 @types/node -
-Conntains TypeScript definitions for Node.
+Contains TypeScript definitions for Node.
 For running TypeScript files on node environment.
 
 cross-env -
-For managing environment valiable in node environment.
+For managing environment variables in node environment.
 
 dotenv -
 For loading environment variables from a .env file.
@@ -78,7 +78,7 @@ Example: ./tests/demoApp/envConfig/
 ./tests/[application name]/tests/
 Example: .tests/demoApp/tests/
 
-> Step 06: Create configuration files cprresponding to the required environments (stage, qa, uat) inside the envConfig directory 
+> Step 06: Create configuration files corresponding to the required environments (stage, qa, uat) inside the envConfig directory 
 
 ./tests/[application name]/envConfig/[environment name].env
 Example: .tests/demoApp/envConfig/qa.env
@@ -105,7 +105,7 @@ Example: .tests/demoApp/tests/demoFeature/demo.spec.ts
   },
 ```
 
-> Step 10: Run the follwoing command in terminal to run the test in the webkit browser
+> Step 10: Run the following command in terminal to run the test in the webkit browser
   
   ```sh
   npm run test:demoAppWebkit
